@@ -1,4 +1,4 @@
-.ignore
+.gitignore
 node_modules/
 old_test/
 .vscode
