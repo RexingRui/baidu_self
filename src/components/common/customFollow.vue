@@ -92,7 +92,7 @@ export default {
                 el.__clickoutside__ = handleClickOutside;
             },
             unbind: function(el, binding) {
-                document.addEventListener("click", el.__clickoutside__);
+                document.removeEventListener("click", el.__clickoutside__);
                 delete el.__clickoutside__;
             }
         }

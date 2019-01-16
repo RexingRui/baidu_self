@@ -29,8 +29,10 @@
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.21",
     "webpack": "^4.27.1",
+    "webpack-chain": "^5.0.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "element-ui": "^2.4.11",

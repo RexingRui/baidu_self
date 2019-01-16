@@ -21,7 +21,7 @@ module.exports = {
 		filename: "bundle.js",
 		path: join(__dirname, "dist")
 	},
-	// 使用source map 追踪到错误和警告在源码中的位置  
+	// 使用source map 追踪到错误和警告在源码中的位置
 	devtool: "inline-source-map",
 	devServer: {
 		// 告诉开发服务器在哪里查找文件
